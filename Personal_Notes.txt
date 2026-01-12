@@ -1,0 +1,18 @@
+Important Codes for Github for Terminal 
+
+1. cd 
+    - to place the working directory of your git project
+
+2. ls
+    - shows the files within that folder that you are using to store Github project
+
+3. git status
+    - after making changes to the files within your Github Project (files on the left side), 
+    - you can see what has been uploaded (committed) to Github or not 
+    -   Labeled in "Untracked Files" mean that a file has been added but not committed.
+    -   Labeled in "Modified" mean that a file has been edited but not committed
+
+4. git add . or git add (file name)
+    - commit changes or upload to Github
+    - "." is for every file change/added
+    - file name is specific files to committ
