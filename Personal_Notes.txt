@@ -9,8 +9,8 @@ Important Codes for Github for Terminal
 3. git status
     - after making changes to the files within your Github Project (files on the left side), 
     - you can see what has been uploaded (committed) to Github or not 
-    -   Labeled in "Untracked Files" mean that a file has been added but not committed.
-    -   Labeled in "Modified" mean that a file has been edited but not committed
+       -   Labeled in "Untracked Files" mean that a file has been added but not committed.
+       -   Labeled in "Modified" mean that a file has been edited but not committed
 
 4. git add . or git add (file name)
     - track the changes and make the red to green after running git status
@@ -26,5 +26,27 @@ Important Codes for Github for Terminal
     - pushes or uploads to Github website/profile 
     - origin (a value that stands for the location of our git repositiory (file pathway))
     - main (the branch name you would want to place the files )
+    - Keep in mind the "origin" will only work if you made the github repository in Github and not locally. 
+        - If done locally, you have to establish connection. Create a new repository with same name in Github Profile
+        - Then, follow step 10 with "git remote"
+        - Once completed step 10, then proceed with step 6 to push or upload the changes within repository 
 
+7. cd ../(Folder_Name)
+    - moves working directory if making another repository
 
+8. git init
+    - To turn folder into a Git Repository
+
+9. git clean
+    - clears the whole terminal 
+
+10. git remote add origin "file that ends with .git"
+    - "remote" means that location isn't local (this computer)
+    - Link is from the repository ending with .git 
+
+11. git remote -v
+    - shows which remote repositories you are connected to with (fetch) and (push)
+
+12. git push -u origin main
+    - "-u" means upstream and it memorizes the location of "origin main" so that you can only type git push instead of the whole code
+    
