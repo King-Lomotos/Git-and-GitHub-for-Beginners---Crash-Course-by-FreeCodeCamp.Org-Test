@@ -13,6 +13,18 @@ Important Codes for Github for Terminal
     -   Labeled in "Modified" mean that a file has been edited but not committed
 
 4. git add . or git add (file name)
-    - commit changes or upload to Github
+    - track the changes and make the red to green after running git status
     - "." is for every file change/added
     - file name is specific files to committ
+
+5. git commit -m "your message" 
+    - commit changes or upload LOCALLY to computer
+    - -m is message (title) when committing (needs to be filled)
+    - second -m is description box
+
+6. git push origin main
+    - pushes or uploads to Github website/profile 
+    - origin (a value that stands for the location of our git repositiory (file pathway))
+    - main (the branch name you would want to place the files )
+
+
